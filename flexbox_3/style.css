@@ -1,44 +1,14 @@
+body{
+    background-color: bisque;
+}
+
 .tarolo{
     display: flex;
-    list-style-type: none;
-
+    flex-wrap: wrap;
+    height: 500px;
+    width: 800px;   
 }
-.tarolo:first-child{
+.aqua{
+    flex-grow: inherit;
     background-color: aqua;
-    height: 100px;
-    width: 35.27%;
-}
-
-.tarolo2{
-    display: flex;
-    gap: 50px;
-    list-style-type: none;
-
-}
-.tarolo2 :nth-child(1){
-    background-color:darkorange;
-    height: 700px;
-    width: 5%;
-}
-.tarolo2 :nth-child(2){
-    background-color: red;
-    height: 700px;
-    width: 20%;
-
-}
-.tarolo2 :nth-child(3){
-    background-color: purple;
-    height: 700px;
-    width: 5%;
-
-}
-.tarolo3{
-    display: flex;
-    list-style-type: none;
-
-}
-.tarolo3 :first-child{
-    background-color: darkblue;
-    height: 100px;
-    width: 35.27%;
 }
