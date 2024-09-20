@@ -2,36 +2,52 @@ body{
     background-color: bisque;
 }
 
-.tarolo{
+#tarolo{
     display: flex;
     height: 500px;
     width: 800px;
+    flex-wrap:wrap;
+
     
 }
 .aqua{
     width: 800px;
     height: 100px;
     background-color: aqua;
+
 }
 .orange{
-    width: 80px;
+    width: 90px;
     height: 700px;
     background-color: orange;
+    margin-right: 60px;
 }
 .red{
+    position: relative;
     width: 800px;
     height: 700px;
     background-color: red;
+    flex: 1 1 100px; 
+
 }
 .black{
+    position: absolute;
     width: 50px;
     height: 50px;
     background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 350px;
+
 }
 .purple{
-    width: 80px;
+    width: 90px;
     height: 700px;
     background-color: purple;
+    margin-left: 60px;
+
 }
 
 .blue{
